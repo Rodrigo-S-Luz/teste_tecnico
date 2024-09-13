@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-background: #f4f2ee;
+    --color-black: #080808;
+    --color-blue: #1474b4;
+}
+
+header {
+    border-bottom: 1px solid #030308;
+    font-size: 1.125rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-black);
+}
+
+#seqFibonacci {
+    border: 1px solid #030308;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 2rem;
+    
+}
+
+#verString {
+    border: 1px solid #030308;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+}
